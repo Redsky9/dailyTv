@@ -1,0 +1,20 @@
+{
+  "name": "p01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "fetch": "^1.1.0",
+    "nodemon": "^1.12.0",
+    "request": "^2.81.0",
+    "require": "^2.4.20"
+  }
+}
