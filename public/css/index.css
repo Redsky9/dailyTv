@@ -1,8 +1,60 @@
-.centered{
-    text-align: center;
-    padding: 10px;
-}
+/* INDEX */
 
 .btnInput{
     margin-top: 10px;
 }
+
+/* DAILY */
+h3{
+    text-align: center;
+}
+
+.show-list{
+    list-style: none;
+}
+
+.show-list>li{
+    float: left;
+    /* clear: right; */
+    margin: 5px;
+}
+
+.show>img{
+    margin-left: 20%;
+    border: 1px solid black;
+}
+
+.show{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25em;
+    /* height: 40em; */
+    height: 30em;
+}
+
+.date{
+    line-height: 0.5px;
+    color: red;
+}
+
+/* .direction>a{
+    width:100%;
+} */
+
+.direction{
+    margin-left: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+.next-day {
+    float: left;
+    margin: 2px 10px;
+    width: 30%;
+}
+
+.prev-day {
+    width: 30%;
+    float: left;
+    margin: 2px 10px;
+  }
